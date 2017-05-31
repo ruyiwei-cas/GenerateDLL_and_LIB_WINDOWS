@@ -28,8 +28,8 @@ FUNCTION_EXPORT
 int calcRectArea(int width, int height);
 ```
 和生成静态库的过程类似，我们修改如下，同样需要去掉main入口
->属性-常规-配置类型中，改为静态库(.lib)，同时目标文件扩展名改为.dll
-这样就可以生成动态库了
+>属性-常规-配置类型中，改为静态库(.lib)，同时目标文件扩展名改为.lib
+这样就可以生成静态库了
 
 ---
 具体的，就下载工程自己体验吧，如果有问题联系我的邮箱 ruyiwei.cas@gmail.com
